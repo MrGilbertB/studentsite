@@ -135,6 +135,20 @@ footer {
      background-color: rgba(0,0,0,0.1);
      color: rgba(0,0,0,0.8);
   }
+  .page-home .hero {
+      background-image: url(../img/beach.jpg);
+      background-size: cover;
+      background-position: center;
+      padding: 30vh 1em 20vh 1em;
+  }
+  .page-home header {
+      background-color: transparent;
+      position: absolute;
+      width: 100%;
+  }
+  .page-home header a{
+    color: rgba(0,102,204,1);
+}
 
   /* COURSE PAGES WITH MULTIPLE PROJECT LISTS*/
   .coursework {
