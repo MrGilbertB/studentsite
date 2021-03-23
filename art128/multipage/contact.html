@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Base | subpages</title>
+  <meta name="description"
+    content="This is a starter HTML +CSS + JS boilerplate set of code for website projects." />
+
+  <!-- VIEWPORT FOR MOBILE -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- FOR IE/EDGE -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- MAIN CSS FILE -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ 
+  <header class="site-header toggle-nav" data-navstate="closed">
+    <div class="container">
+     <div class="site-id">
+       <h1><a href="contact.html">contact</a></h1>
+     </div>
+     <nav class="site-nav">
+       <div class="menu-button navicon">menu</div>
+       <ul>
+         <li class="hidden"><a href="index.html">home</a></li>
+         <li><a href="index.html">home</a></li>
+         <li><a href="about.html">about</a></li>
+        
+       </ul>
+     </nav>
+    </div>
+ </header>
+
+ <main class="site-main">
+      <section class="hero text centered">
+       <h1>Contact Us</h1>
+       <p>This is an example of a hero top and example contact form</p>
+      </section>
+    
+      <div class="container">
+       
+            <form>
+                <label for="contact_name">name</label>
+                <input type="text" id="contact_name" name="contact_name" />
+                
+                <label for="email">email address</label>
+                <input type="text" id="contact_email" name="contact_email" />
+                
+                <label              for="contact_message">Message:</label>
+            <textarea name="contact_message" id="contact_message"></textarea>
+                
+            <input type="submit" value="submit"/>
+            </form>
+
+         </div>
+           
+       
+    
+ </main>
+
+ <footer class="site-footer">
+   <div class="container">
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+   </div>
+ </footer>
+
+
+  <!-- MAIN JS FILE -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
