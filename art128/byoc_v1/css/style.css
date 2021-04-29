@@ -36,6 +36,7 @@ body{
     font-family: Helvetica, Arial, sans-serif;
     line-height: 1.5;
     color: rgba(0, 0, 0,.8);
+    background-color: rgb(206, 228, 209);
 }
 
 /* Headings */
@@ -106,6 +107,7 @@ a:hover{
 }
 
 /* Images */
+
 img {
     max-width: 100%;
     height: auto;
@@ -266,7 +268,7 @@ body.demo::before{
 /* header */
 .site-header{
   padding: .5em 0;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(206, 228, 209);
 }
 /* small screen stack */
 
@@ -327,8 +329,13 @@ justify-content: center;
 
 .hero{
   padding: 6em 4%;
-  background-color: rgba(0, 0, 0,.1);
+  background-color: rgba(26, 12, 129, 0.8);
   text-align: center;
+   background-image: url(../img/water.jpg);
+      background-size: cover;
+      background-position: center;
+      padding: 70vh 1em 20vh 1em;
+      color: white;
 }
 
 .hero h1, p{
